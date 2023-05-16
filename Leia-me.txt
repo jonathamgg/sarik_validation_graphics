@@ -1,0 +1,43 @@
+Descrição do Projeto
+Este repositório contém os dados e scripts utilizados na validação e 
+análise de métricas de desempenho em um ambiente distribuído, 
+visando o estudo de segurança e otimização de sistemas IoT. 
+A seguir, descreveremos a organização dos arquivos e pastas neste repositório:
+
+Pasta "validação"
+A pasta "validação" contém os dados brutos gerados pelos scripts para cada métrica avaliada. Dentro desta pasta, você encontrará subpastas correspondentes a cada métrica, como "latência", "taxa de resposta" e "taxa de transmissão". Cada uma dessas subpastas contém dados gerados pelo script executado em diferentes dias e grupos de teste. Os arquivos de dados nessas pastas mostram o tempo gasto em segundos para uma determinada ação em cada execução.
+
+Pasta "juntar"
+A pasta "juntar" contém arquivos resultantes da concatenação dos dados brutos das subpastas "validação". Esses arquivos combinam os dados dos grupos 1 e 2 em um único arquivo, facilitando a análise e comparação dos resultados.
+
+Pasta "DADOS"
+A pasta "DADOS" contém vários scripts que realizam procedimentos para calcular a média de tempo por dia e gerar um novo arquivo contendo esses valores médios. Esses scripts são essenciais para obter uma visão mais abrangente e resumida dos dados coletados.
+
+Pasta "Gráficos"
+A pasta "Gráficos" contém os gráficos gerados a partir das médias de tempo dos experimentos. Esses gráficos proporcionam uma visualização clara e informativa do desempenho dos sistemas avaliados.
+
+Pasta "Cálculo Estatístico"
+A pasta "Cálculo Estatístico" contém os arquivos em formato PDF gerados pelo software jamovi para realizar o cálculo estatístico dos dados coletados. Esses arquivos fornecem informações valiosas sobre a análise estatística realizada nos experimentos.
+
+Pasta "Monitoring"
+A pasta "Monitoring" contém arquivos .yaml para a coleta e visualização dos dados por meio dos softwares prometheus e grafana. Esses arquivos oferecem uma abordagem eficaz para monitorar e analisar o desempenho dos sistemas em tempo real.
+
+
+Sinta-se à vontade para explorar os arquivos e pastas deste repositório para obter mais informações
+sobre os experimentos realizados e os resultados obtidos. Para qualquer dúvida ou esclarecimento adicional,
+não hesite em entrar em contato conosco.
+
+
+Requisitos
+Python 3.7 ou superior
+Software jamovi (para análise estatística)
+Pacotes Python: pandas, matplotlib, numpy
+
+Como utilizar
+1 - Clone este repositório em sua máquina local.
+2 - Navegue pelas pastas e arquivos para acessar os dados e scripts específicos que deseja analisar.
+3 - Utilize os scripts disponíveis para calcular médias, gerar gráficos ou realizar análises estatísticas conforme necessário.
+4 - Consulte a documentação e os comentários nos scripts para obter mais informações sobre a utilização e funcionalidades específicas.
+
+Contribuições
+Contribuições para melhorias neste projeto são sempre bem-vindas.
