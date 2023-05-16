@@ -1,0 +1,5 @@
+db-684b9b49fd-75jjw
+redis-67db9bd79b-msprv
+result-77f68799c4-tkqx9
+vote-79787c6c8b-hdd92
+worker-78b9ff59fc-bnftj
