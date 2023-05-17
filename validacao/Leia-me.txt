@@ -1,0 +1,23 @@
+
+Experimentos e Dados
+Este repositório contém os dados brutos dos experimentos realizados em três métricas distintas, 
+separadas em dois grupos (1 e 2). Cada grupo possui dez subpastas correspondentes aos dias 
+em que os experimentos foram conduzidos.
+
+Como utilizar
+Dentro de cada subpasta correspondente a um determinado dia, há scripts específicos para cada 
+variável testada. Ao executar esses scripts, uma série de arquivos será gerada ao final da execução. 
+Esses arquivos contêm os dados brutos do experimento e precisam ser tratados para análises posteriores.
+
+Estrutura das pastas
+/Grupo1: contém as subpastas correspondentes aos dias dos experimentos realizados no grupo 1.
+/Grupo2: contém as subpastas correspondentes aos dias dos experimentos realizados no grupo 2.
+Dentro de cada subpasta dos grupos 1 e 2, há subpastas correspondentes às variáveis testadas e seus respectivos scripts.
+
+/apt: contém o script específico para apt e os arquivos gerados após a execução do script (apt.sh).
+/apt: contém o script específico para apt do grupo 2 e os arquivos gerados após a execução do script (apt.sh).
+
+...
+Aviso
+Os dados brutos disponibilizados requerem tratamento para análises posteriores. 
+Caso precise de ajuda ou informações adicionais, favor entrar em contato.
