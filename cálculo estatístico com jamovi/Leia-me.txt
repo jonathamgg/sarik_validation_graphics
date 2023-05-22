@@ -1,0 +1,19 @@
+Este repositório contém os resultados estatísticos das variáveis testadas em um experimento.
+Os cálculos estatísticos foram realizados utilizando o software Jamovi, que oferece recursos
+ de estatística descritiva para análise de dados.
+
+Resultados Estatísticos
+Nesta pasta, você encontrará os resultados estatísticos obtidos para cada variável testada no experimento. 
+Utilizando o Jamovi, foram aplicadas técnicas de estatística descritiva, incluindo as seguintes medidas: 
+média, mediana, desvio-padrão, variância, amplitude, mínimo, máximo, assimetria, erro padrão, curtose, 
+erro padrão da curtose, W de Shapiro-Wilk e p Shapiro-Wilk.
+
+Teste t para Amostras Independentes
+O teste t para amostras independentes foi utilizado neste experimento, utilizando a correção de Welch. 
+Em todos os testes realizados, foi adotado um nível de significância de p < 0,05.
+
+Observações
+Certifique-se de ter o software Jamovi instalado para visualizar e explorar os resultados estatísticos.
+Os arquivos contidos nesta pasta apresentam os resultados estatísticos para cada variável testada no 
+experimento. Consulte os arquivos relevantes para obter informações mais detalhadas.
+Caso tenha alguma dúvida ou precise de mais informações, sinta-se à vontade para entrar em contato.
