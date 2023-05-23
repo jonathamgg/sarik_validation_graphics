@@ -1,0 +1,5 @@
+disponibilizado os seguintes POD's
+
+Grafana, prometheus e metrics
+
+Além disso, é disponibilizado um dashboard.
