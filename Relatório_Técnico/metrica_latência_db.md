@@ -30,8 +30,9 @@ Os dados extraídos são resumidos na tabela abaixo:
 [Link para o arquivo CSV](https://github.com/jonathamgg/sarik_validation_graphics/blob/master/c%C3%A1lculo%20estat%C3%ADstico%20com%20jamovi/latencia/db/media_latencia_apt.csv)
 
 > **Tabela Anexo**
+
 | Group   | Media   |
-|---------|---------|
+| ------- | ------- |
 | Group 1 | 1.5425  |
 | Group 1 | 1.62673 |
 | Group 1 | 1.60383 |
@@ -52,6 +53,7 @@ Os dados extraídos são resumidos na tabela abaixo:
 | Group 2 | 21.1483 |
 | Group 2 | 21.139  |
 | Group 2 | 21.1842 |
+
 
 ---
 
