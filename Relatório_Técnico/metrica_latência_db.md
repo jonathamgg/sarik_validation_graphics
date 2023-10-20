@@ -19,15 +19,39 @@ O presente relatório tem como objetivo avaliar e interpretar os resultados esta
 
 ## Metodologia
 
-O arquivo PDF fornecido foi processado usando expressões regulares para extração de dados. As métricas estatísticas extraídas incluem média, mediana, desvio-padrão, amplitude, mínimo, máximo, assimetria e curtose. A linguagem utilizada para esta análise foi o Python para processamento subsequente.
+O arquivo PDF [Veja o PDF aqui](https://github.com/jonathamgg/sarik_validation_graphics/blob/master/c%C3%A1lculo%20estat%C3%ADstico%20com%20jamovi/latencia/db/media_latencia_apt.pdf)
+fornecido foi processado usando expressões regulares para extração de dados. As métricas estatísticas extraídas incluem média, mediana, desvio-padrão, amplitude, mínimo, máximo, assimetria e curtose. A linguagem utilizada para esta análise foi o Python para processamento subsequente.
 
 ---
 
 ## Resultados
 
 Os dados extraídos são resumidos na tabela abaixo:
+[Link para o arquivo CSV](https://github.com/jonathamgg/sarik_validation_graphics/blob/master/c%C3%A1lculo%20estat%C3%ADstico%20com%20jamovi/latencia/db/media_latencia_apt.csv)
 
 > **Tabela Anexo**
+| Group   | Media   |
+|---------|---------|
+| Group 1 | 1.5425  |
+| Group 1 | 1.62673 |
+| Group 1 | 1.60383 |
+| Group 1 | 1.62517 |
+| Group 1 | 1.5257  |
+| Group 1 | 1.69003 |
+| Group 1 | 1.60157 |
+| Group 1 | 1.52497 |
+| Group 1 | 1.54467 |
+| Group 1 | 1.59287 |
+| Group 2 | 21.1753 |
+| Group 2 | 21.1511 |
+| Group 2 | 21.2002 |
+| Group 2 | 21.1992 |
+| Group 2 | 21.1454 |
+| Group 2 | 21.153  |
+| Group 2 | 21.1489 |
+| Group 2 | 21.1483 |
+| Group 2 | 21.139  |
+| Group 2 | 21.1842 |
 
 ---
 
