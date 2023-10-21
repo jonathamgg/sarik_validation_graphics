@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Relatório técnio - Análise descritiva</title>
+  <style>
+    /* Estilos CSS */
+    body {
+      font-family: Arial, sans-serif;
+    }
+    #pdf-container, #csv-container {
+      margin-top: 20px;
+    }
+  </style>
+  <script>
+    // Função para carregar e exibir o conteúdo do arquivo CSV
+    function loadCSV() {
+      var xhr = new XMLHttpRequest();
+      xhr.open('GET', 'https://github.com/jonathamgg/sarik_validation_graphics/blob/master/c%C3%A1lculo%20estat%C3%ADstico%20com%20jamovi/latencia/db/media_latencia_apt.csv', true);
+      xhr.onreadystatechange = function() {
+        if (xhr.readyState == 4 && xhr.status == 200) {
+          var csv = xhr.responseText.split('\n');
+          var table = '<table border="1">';
+          for (var i = 0; i < csv.length; i++) {
+            var row = csv[i].split(',');
+            table += '<tr>';
+            for (var j = 0; j < row.length; j++) {
+              table += '<td>' + row[j] + '</td>';
+            }
+            table += '</tr>';
+          }
+          table += '</table>';
+          document.getElementById('csv-container').innerHTML = table;
+        }
+      };
+      xhr.send(null);
+    }
+  </script>
+</head>
+<body onload="loadCSV()">
+
+  <h1>Relatório de Análise de Estatísticas Descritivas</h1>
+
+  <!-- Container para o PDF -->
+  <div id="pdf-container">
+    <iframe src="https://github.com/jonathamgg/sarik_validation_graphics/blob/master/c%C3%A1lculo%20estat%C3%ADstico%20com%20jamovi/latencia/db/media_latencia_apt.pdf" width="600" height="400"></iframe>
+  </div>
+
+  <!-- Container para o CSV -->
+  <div id="csv-container">
+    <!-- A tabela CSV será carregada aqui -->
+  </div>
+
+</body>
+</html>
