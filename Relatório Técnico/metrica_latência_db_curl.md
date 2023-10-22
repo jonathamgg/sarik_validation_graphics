@@ -27,7 +27,7 @@ O arquivo PDF fornecido ([Veja o PDF aqui](https://github.com/jonathamgg/sarik_v
 
 ## Resultados
 
-## Estatísticas Descritivas
+### Estatísticas Descritivas
 Os dados extraídos são resumidos na tabela abaixo:
 [Link para o arquivo CSV](https://github.com/jonathamgg/sarik_validation_graphics/blob/master/c%C3%A1lculo%20estat%C3%ADstico%20com%20jamovi/latencia/db/media_latencia_curl.csv)
 
@@ -57,7 +57,7 @@ Os dados extraídos são resumidos na tabela abaixo:
 | Group 2| 20.6259  |
 
 
-## Teste t para Amostras Independentes
+### Teste t para Amostras Independentes
 
 Estatística t de Student: -4485 (gl = 16.0, p < .001)
 
