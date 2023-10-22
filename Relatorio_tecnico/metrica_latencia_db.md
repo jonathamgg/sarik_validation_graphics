@@ -59,7 +59,9 @@ Os dados extraídos são resumidos na tabela abaixo:
 ## Teste t para Amostras Independentes
 
 Estatística t de Student: -1066 (gl = 18.0, p < .001)
+
 t de Welch: -1066 (gl = 12.3, p < .001)
+
 Teste de Levene para Homogeneidade de Variâncias: F = 5.63, gl1 = 1, gl2 = 18, p = 0.029
 
 ---
